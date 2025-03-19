@@ -2,7 +2,7 @@
 
 
     <div class="top-bar">
-        <div>📞 000-111-222 | ✉ example@example.com</div>
+        <div><i class=" bi bi-phone"></i> 000-111-222 | ✉ example@example.com</div>
         <div>
             <a href="#"><i class="fab fa-twitter"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>
@@ -32,6 +32,7 @@
             <p id="hero-text">This drastic appeal for baked goods promoted baking all throughout Europe and expanded
                 into the eastern parts of Asia.</p>
             <button class="btn">See the recipe</button>
+
         </div>
         <button class="slider-btn next" onclick="nextSlide()">❯</button>
     </div>

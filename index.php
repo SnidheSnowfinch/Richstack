@@ -1,38 +1,15 @@
 <?php include 'includes/header.php' ?>
 
 
-    <div class="top-bar">
-        <div><i class=" bi bi-phone"></i> 000-111-222 | ✉ example@example.com</div>
-        <div>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-facebook"></i></a>
-        </div>
-    </div>
-    <div class="nav position-relative">
-        <div class="logo"><img src="bootstrap/images/logo-img.png" alt=""></div>
-        <div class="menu">
-            <a href="#">Home</a>
-            <a href="#">Our Cakes</a>
-            <a href="#">Menu</a>
-            <a href="#">About Us</a>
-            <a href="#">Pages</a>
-            <a href="#">Blog</a>
-            <a href="#">Shop</a>
-            <a href="#">Contact Us</a>
-        </div>
-        <div class="nav-div"><img src="bootstrap/images/nav-img.png" alt=""></div>
 
-    </div>
     <div class="hero">
         <button class="slider-btn prev" onclick="prevSlide()">❮</button>
-        <img id="hero-img" class="home-back-img" src="bootstrap/images/home-img.png" alt="Hero Image">
+        <img id="hero-img" class="home-back-img" itemid="" src="bootstrap/images/home-img.png" alt="Hero Image">
         <div class="hero-content">
             <h1 id="hero-title">Freshly baked pastries are the true <br><strong>language of love</strong></h1>
             <p id="hero-text">This drastic appeal for baked goods promoted baking all throughout Europe and expanded
                 into the eastern parts of Asia.</p>
             <button class="btn">See the recipe</button>
-
         </div>
         <button class="slider-btn next" onclick="nextSlide()">❯</button>
     </div>
@@ -59,12 +36,30 @@
             <button class="slider-btn-card next-btn" onclick="scrollRightDest()">❯</button>
 
 
-            <h2>Our Featured Cakes</h2>
+            <div class="d-flex align-items-end mb-1">
+                <h2 class="mb-0">Our Featured Cakes</h2> <span class="gray-line"></span>
+            </div>
             <p class="subtitle">Seldolor sit amet consect etur</p>
-            <div class="swiper-wrapper">
+            <div class="swiper-wrapper" id="homecard">
                 <div class="card home-card">
                     <div class="position-relative">
                         <img src="bootstrap/images/cake-img1.png" alt="Cupcake">
+                        <div class="white-div">
+                            <label for="" class="mx-2">₹1200</label> ₹1200
+                        </div>
+
+                    </div>
+                    <div class="card-body text-center">
+
+                        <h3>Custom Cup Cake</h3>
+                        <button class="cart-btn">Add to cart</button>
+                    </div>
+
+
+                </div>
+                <div class="card home-card">
+                    <div class="position-relative">
+                        <img src="bootstrap/images/cake-img-2.png" alt="Cupcake">
                         <div class="white-div">
                             <label for="" class="mx-2">₹1200</label> ₹1200
                         </div>
@@ -96,23 +91,7 @@
                 </div>
                 <div class="card home-card">
                     <div class="position-relative">
-                        <img src="bootstrap/images/cake-img1.png" alt="Cupcake">
-                        <div class="white-div">
-                            <label for="" class="mx-2">₹1200</label> ₹1200
-                        </div>
-
-                    </div>
-                    <div class="card-body text-center">
-
-                        <h3>Custom Cup Cake</h3>
-                        <button class="cart-btn">Add to cart</button>
-                    </div>
-
-
-                </div>
-                <div class="card home-card">
-                    <div class="position-relative">
-                        <img src="bootstrap/images/cake-img1.png" alt="Cupcake">
+                        <img src="bootstrap/images/cake-img-2.png" alt="Cupcake">
                         <div class="white-div">
                             <label for="" class="mx-2">₹1200</label> ₹1200
                         </div>
@@ -166,28 +145,82 @@
         </section>
 
     </div>
-    <section class="special-div">
-        <div class="position-relative"><img src="bootstrap/images/section-img.png" alt="" width="100%">
-            <div class="inner-cake-div">
-                <div class="row ">
-                    <div class="col-lg-6 com-sm-12">
-                        <div class=""><img src="bootstrap/images/cake-img-absolute.png" alt=""></div>
+    <div class="slider-container">
+        <section class="special-div slider">
+            <div class="position-relative slide active"><img src="bootstrap/images/section-img.png" alt="" width="100%"
+                    class="slide-back-img">
+                <div class="inner-cake-div">
+                    <div class="row ">
+                        <div class="col-lg-6 com-sm-12">
+                            <div class=""><img src="bootstrap/images/cake-img-absolute.png" alt=""></div>
 
-                    </div>
-                    <div class="col-lg-6 com-sm-12 img-row-div">
-                        <div class="inner-div-data">
-                            <h2>Special Recipe</h2>
-                            <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                                corporis suscipit laboriosam, nisi ut aliquid ex ea commodi equatur
-                                uis autem vel eum</p>
-                            <button class="detail-btn">View Details</button>
+                        </div>
+                        <div class="col-lg-6 com-sm-12 img-row-div">
+                            <div class="inner-div-data border-div">
+                                <h2>Special Recipe</h2>
+                                <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                                    corporis suscipit laboriosam, nisi ut aliquid ex ea commodi equatur
+                                    uis autem vel eum</p>
+                                <button class="detail-btn">View Details</button>
+                            </div>
                         </div>
                     </div>
                 </div>
+
+
+            </div>
+            <div class="position-relative slide"><img src="bootstrap/images/section-img.png" alt="" width="100%"
+                    class="slide-back-img">
+                <div class="inner-cake-div ">
+                    <div class="row ">
+                        <div class="col-lg-6 com-sm-12">
+                            <div class=""><img src="bootstrap/images/cake-img-absolute.png" alt=""></div>
+
+                        </div>
+                        <div class="col-lg-6 com-sm-12 img-row-div">
+                            <div class="inner-div-data border-div">
+                                <h2>Special Recipe</h2>
+                                <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                                    corporis suscipit laboriosam, nisi ut aliquid ex ea commodi equatur
+                                    uis autem vel eum</p>
+                                <button class="detail-btn">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="position-relative slide"><img src="bootstrap/images/section-img.png" alt="" width="100%"
+                    class="slide-back-img">
+                <div class="inner-cake-div ">
+                    <div class="row ">
+                        <div class="col-lg-6 com-sm-12">
+                            <div class=""><img src="bootstrap/images/cake-img-absolute.png" alt=""></div>
+
+                        </div>
+                        <div class="col-lg-6 com-sm-12 img-row-div">
+                            <div class="inner-div-data border-div">
+                                <h2>Special Recipe</h2>
+                                <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                                    corporis suscipit laboriosam, nisi ut aliquid ex ea commodi equatur
+                                    uis autem vel eum</p>
+                                <button class="detail-btn">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
 
+        </section>
+        <div class="indicators">
+            <span class="dot active" onclick="moveToSlide(0)"></span>
+            <span class="dot" onclick="moveToSlide(1)"></span>
+            <span class="dot" onclick="moveToSlide(2)"></span>
         </div>
-    </section>
+    </div>
     <section class="service-div">
         <div class="cake-img-double"><img src="bootstrap/images/absolute-img-cake.png" alt=""></div>
         <h2>Main Services We Provide</h2>
@@ -233,104 +266,204 @@
             <img src="bootstrap/images/opacity-img-cake-2.png" alt="">
         </div>
         <div class="container space-evenly">
-           
+
             <div class="menu-content">
-                <h2>Discover Menu</h2>
+                <div class="d-flex align-items-end mb-1">
+                    <h2 class="mb-0">Discover Menu</h2><span class="gray-line"></span>
+                </div>
                 <label>We offer a wide range of Menu items.</label>
                 <div class="row mt-3">
-                <div class="col-6">
+                    <div class="col-6">
 
-                    <div class="menu-item">
-                        <div class="item-name">
-                            <h3>Double Chocolate Pie</h3>
-                            <p>Chocolate pudding, vanilla, fruit raspberry jam milk</p>
+                        <div class="menu-item">
+                            <div class="item-name">
+                                <h3>Double Chocolate Pie</h3>
+                                <p>Chocolate pudding, vanilla, fruit raspberry jam milk</p>
+                            </div>
+                            <div class="item-price">₹1000</div>
                         </div>
-                        <div class="item-price">₹1000</div>
+
+                        <div class="menu-item">
+                            <div class="item-name">
+                                <h3>Zabaglione Cake</h3>
+                                <p>Vanilla, fruit raspberry jam milk</p>
+                            </div>
+                            <div class="item-price">₹1000</div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="item-name">
+                                <h3>Strawberry Sweet Cake</h3>
+                                <p>Chocolate pudding, vanilla, fruit raspberry jam milk</p>
+                            </div>
+                            <div class="item-price">₹1000</div>
+                        </div>
                     </div>
+                    <div class="col-6">
 
-                    <div class="menu-item">
-                        <div class="item-name">
-                            <h3>Zabaglione Cake</h3>
-                            <p>Vanilla, fruit raspberry jam milk</p>
-                        </div>
-                        <div class="item-price">₹1000</div>
-                    </div>
 
-                    <div class="menu-item">
-                        <div class="item-name">
-                            <h3>Strawberry Sweet Cake</h3>
-                            <p>Chocolate pudding, vanilla, fruit raspberry jam milk</p>
+                        <div class="menu-item">
+                            <div class="item-name">
+                                <h3>Fried Egg Sandwich</h3>
+                                <p>Chocolate pudding, vanilla, fruit raspberry jam milk</p>
+                            </div>
+                            <div class="item-price">₹1000</div>
                         </div>
-                        <div class="item-price">₹1000</div>
+
+                        <div class="menu-item">
+                            <div class="item-name">
+                                <h3>Multigrain Hot Cake</h3>
+                                <p>Chocolate pudding, vanilla, fruit raspberry jam milk</p>
+                            </div>
+                            <div class="item-price">₹1000</div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="item-name">
+                                <h3>Branch Special Cake</h3>
+                                <p>Chocolate pudding, vanilla, fruit raspberry jam milk</p>
+                            </div>
+                            <div class="item-price">₹1000</div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-6">
-
-
-                    <div class="menu-item">
-                        <div class="item-name">
-                            <h3>Fried Egg Sandwich</h3>
-                            <p>Chocolate pudding, vanilla, fruit raspberry jam milk</p>
-                        </div>
-                        <div class="item-price">₹1000</div>
-                    </div>
-
-                    <div class="menu-item">
-                        <div class="item-name">
-                            <h3>Multigrain Hot Cake</h3>
-                            <p>Chocolate pudding, vanilla, fruit raspberry jam milk</p>
-                        </div>
-                        <div class="item-price">₹1000</div>
-                    </div>
-
-                    <div class="menu-item">
-                        <div class="item-name">
-                            <h3>Branch Special Cake</h3>
-                            <p>Chocolate pudding, vanilla, fruit raspberry jam milk</p>
-                        </div>
-                        <div class="item-price">₹1000</div>
-                    </div>
-                </div>
-            </div>
             </div>
         </div>
 
 
 
     </div>
-    <script>
-        const slides = [
-            { image: "bootstrap/images/home-img.png", title: "Freshly baked pastries are the true <br><strong>language of love</strong>", text: "This drastic appeal for baked goods promoted baking all throughout Europe and expanded into the eastern parts of Asia." },
-            { image: "bootstrap/images/home-img.png", title: "Indulge in the Sweetness of Life <br><strong>language of love</strong>", text: "Every bite of our handcrafted cakes brings a moment of joy and delight." },
-            { image: "bootstrap/images/home-img.png", title: "A Slice of Happiness in Every Bite <br><strong>language of love</strong>", text: "Our cakes are made with love, perfect for every occasion and celebration." }
-        ];
-        let currentSlide = 0;
-        function updateSlide() {
-            document.getElementById("hero-img").src = slides[currentSlide].image;
-            document.getElementById("hero-title").innerHTML = slides[currentSlide].title;
-            document.getElementById("hero-text").innerHTML = slides[currentSlide].text;
-        }
-        function nextSlide() {
-            currentSlide = (currentSlide + 1) % slides.length;
-            updateSlide();
-        }
-        function prevSlide() {
-            currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-            updateSlide();
-        }
-        const containerdiv = document.getElementById("featured-cakes");
 
-        function scrollLeftDest() {
-            containerdiv.scrollBy({ left: -300, behavior: "smooth" });
-        }
+    <div class="testimonial-container ">
+        <div class="container">
+            <div class="inner-div-data">
+                <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col-9 text-left">
+                        <div class="review-d-flex">
+                            <div class="d-flex align-items-end mb-1">
+                                <h2 class="mb-0">What Our Client Says</h2> <span class="gray-line"></span>
+                            </div>
+                            <div class="navs-buttons">
+                                <button onclick="prevTestimonial()">&#10094;</button>
+                                <button onclick="nextTestimonial()">&#10095;</button>
+                            </div>
+                        </div>
 
-        function scrollRightDest() {
-            containerdiv.scrollBy({ left: 300, behavior: "smooth" });
-        }
-    </script>
-    <script src="bootstrap/js/slime.js"></script>
-    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+                    </div>
 
-</body>
+                </div>
 
-</html>
+                <div class="testimonial active">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="position-relative">
+                                <img class="testimonial-img" src="bootstrap/images/profile (1).webp" alt="Client">
+                                <div class="head-icon"><img src="bootstrap/images/heading-mark.png" alt=""></div>
+                            </div>
+
+
+                        </div>
+                        <div class="col-9 text-left">
+                            <div class="profile-div">
+                                <p>"Oseddolores eos qoluptatem sequi
+                                    nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+                                    consectetur, adipisci sed quia non numquam qui ratione voluptatem sequi nesciunt.
+                                    Neque porro quisquam est."</p>
+                            </div>
+                            <div class="profile-name">
+                                <p>- manu Lee</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="testimonial">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="position-relative">
+                                <img class="testimonial-img" src="bootstrap/images/profile (1).webp" alt="Client">
+                                <div class="head-icon"><img src="bootstrap/images/heading-mark.png" alt=""></div>
+                            </div>
+
+
+                        </div>
+                        <div class="col-9 text-left">
+                            <div class="profile-div">
+                                <p>"Osed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+                                    nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+                                    consectetur, adipisci sed quia non numquam qui ratione voluptatem sequi nesciunt.
+                                    Neque porro quisquam est."</p>
+                            </div>
+                            <div class="profile-name">
+                                <p>- Sarah Lee</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="testimonial">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="position-relative">
+                                <img class="testimonial-img" src="bootstrap/images/profile (1).webp" alt="Client">
+                                <div class="head-icon"><img src="bootstrap/images/heading-mark.png" alt=""></div>
+                            </div>
+
+
+                        </div>
+                        <div class="col-9 text-left">
+                            <div class="profile-div">
+                                <p>"Osed quia conse ratione voluptatem sequi nesciunt.
+                                    Neque porro quisquam est."</p>
+                            </div>
+                            <div class="profile-name">
+                                <p>- Gaour Lee</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <section class="blog-section">
+        <div class="container">
+            <div class="featured-cakes text-left">
+
+                <div class="d-flex align-items-end mb-1">
+                    <h2 class="mb-0">Latest Blog</h2><span class="gray-line"></span>
+                </div>
+                <p>An turn into your instructor your helper, your</p>
+
+                <div class="blog-container">
+                    <div class="blog-card featured">
+                        <img src="bootstrap/images/blog-img-1.png" alt="Blog Image">
+                        <div class="blog-content-featured">
+                            <h3>Best ways to create an extraordinary cake.</h3>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <img src="bootstrap/images/blog-img-2.png" alt="Blog Image">
+                        <div class="blog-content">
+                            <span>March 5, 2025</span>
+                            <h3>Best ways to create an extraordinary cake.</h3>
+                            <p>Pityful a rethoric question ran over her cheek,then she continued her way. On her way she
+                                met a copy. The copy warned the ...</p>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <img src="bootstrap/images/blog-img-3.png" alt="Blog Image">
+                        <div class="blog-content">
+                            <span>March 5, 2025</span>
+                            <h3>Best ways to create an extraordinary cake.</h3>
+                            <p>Pityful a rethoric question ran over her cheek,then she continued her way. On her way she
+                                met a copy. The copy warned the ...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<?php include 'includes/footer.php' ?>

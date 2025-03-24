@@ -1,8 +1,5 @@
 <?php include 'includes/header.php' ?>
-
-
-
-    <div class="hero">
+<div class="hero">
         <button class="slider-btn prev" onclick="prevSlide()">❮</button>
         <img id="hero-img" class="home-back-img" itemid="" src="bootstrap/images/home-img.png" alt="Hero Image">
         <div class="hero-content">
@@ -14,8 +11,8 @@
         <button class="slider-btn next" onclick="nextSlide()">❯</button>
     </div>
     <div class="home-section">
-        <div class="container d-flex">
-            <div class="image-section">
+        <div class="container d-phone-flex">
+            <div class="image-section text-phone-center">
                 <img src="bootstrap/images/back-img.png" alt="Richstack Bakery">
             </div>
             <div class="text-section">
@@ -151,7 +148,7 @@
                     class="slide-back-img">
                 <div class="inner-cake-div">
                     <div class="row ">
-                        <div class="col-lg-6 com-sm-12">
+                        <div class="col-lg-6  com-sm-12">
                             <div class=""><img src="bootstrap/images/cake-img-absolute.png" alt=""></div>
 
                         </div>
@@ -273,7 +270,7 @@
                 </div>
                 <label>We offer a wide range of Menu items.</label>
                 <div class="row mt-3">
-                    <div class="col-6">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
 
                         <div class="menu-item">
                             <div class="item-name">
@@ -299,7 +296,7 @@
                             <div class="item-price">₹1000</div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
 
 
                         <div class="menu-item">
@@ -338,8 +335,8 @@
         <div class="container">
             <div class="inner-div-data">
                 <div class="row">
-                    <div class="col-3"></div>
-                    <div class="col-9 text-left">
+                    <div class="col-lg-3 col-md-3 col-sm-12"></div>
+                    <div class="col-lg-9 col-md-9 col-sm-12 text-left">
                         <div class="review-d-flex">
                             <div class="d-flex align-items-end mb-1">
                                 <h2 class="mb-0">What Our Client Says</h2> <span class="gray-line"></span>

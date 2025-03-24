@@ -18,7 +18,7 @@
 <body>
 
     <div class="top-bar">
-        <div><i class="bi bi-phone"></i> 000-111-222 | ✉ example@example.com</div>
+        <div><i class="bi bi-telephone"></i> 000-111-222 | ✉ example@example.com</div>
         <div class="social-icons">
             <label class="icon-nav"><i class="bi bi-instagram"></i></label>
             <label class="icon-nav"><i class="bi bi-twitter"></i></label>
@@ -26,17 +26,23 @@
             <label class="icon-nav"><i class="bi bi-youtube"></i></label>
         </div>
     </div>
-    <div class="nav position-relative">
+    <div class="nav position-relative navbar navbar-expand-lg">
         <div class="logo"><img src="bootstrap/images/logo-img.png" alt=""></div>
-        <div class="menu">
-            <a href="#">Home</a>
-            <a href="#">Our Cakes</a>
-            <a href="#">Menu</a>
-            <a href="#">About Us</a>
-            <a href="#">Pages</a>
-            <a href="#">Blog</a>
-            <a href="#">Shop</a>
-            <a href="#">Contact Us</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">Our Cakes</a>
+                <a href="#">Menu</a>
+                <a href="#">About Us</a>
+                <a href="#">Pages</a>
+                <a href="#">Blog</a>
+                <a href="#">Shop</a>
+                <a href="#">Contact Us</a>
+            </div>
         </div>
         <div class="nav-div"><img src="bootstrap/images/nav-img.png" alt=""></div>
 

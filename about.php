@@ -1,7 +1,7 @@
 <?php include 'includes/header.php' ?>
 <div class="hero">
 
-<img id="hero-img" class="home-back-img abt-img" itemid="" src="bootstrap/images/about-img.png"
+<img id="hero-img" class="home-back-img abt-img" itemid="" src="bootstrap/images/about-img.webp"
     alt="Hero Image">
 <div class="hero-content text-center">
     <h1 id="hero-title"><strong>About Us</strong></h1>
@@ -9,10 +9,10 @@
 </div>
 </div>
 
-<div class="home-section">
-<div class="container text-center">
+<div class="home-section position-relative">
+<div class="container text-center ">
 
-    <div class="text-section">
+    <div class="text-section ">
         <h2>Welcome to Richstack</h2>
         <p><i>This drastic appeal for baked goods promoted baking all throughout Europe and expanded into the
                 eastern parts of Asia.
@@ -26,16 +26,19 @@
             respectable profession for Romans.</p>
 
     </div>
+    <div class="cheese-cake"><img src="bootstrap/images/cheese-cake.webp" alt=""></div>
+    <div class="brown-cake"><img src="bootstrap/images/brown-cake.webp" alt=""></div>
+
     <div class="row">
-        <div class="col-lg-4 col-md-6 col-sm-12">
-            <img src="bootstrap/images/inner-room.png" alt="Richstack Bakery">
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-2">
+            <img src="bootstrap/images/inner-room.webp" alt="Richstack Bakery" width="100%">
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
-            <img src="bootstrap/images/inner-room-2.png" alt="Richstack Bakery">
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-2">
+            <img src="bootstrap/images/inner-room-2.webp" alt="Richstack Bakery" width="100%">
 
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
-            <img src="bootstrap/images/inner-room-3.png" alt="Richstack Bakery">
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-2">
+            <img src="bootstrap/images/inner-room-3.webp" alt="Richstack Bakery" width="100%">
 
         </div>
 
@@ -45,7 +48,7 @@
 </div>
 <div class="hero">
 
-<div class="position-relative"><img src="bootstrap/images/taste-img.png" alt="" width="100%"
+<div class="position-relative"><img src="bootstrap/images/taste-img.webp" alt="" width="100%"
         class="slide-back-img">
     <div class="taste-content text-center">
 
@@ -66,13 +69,13 @@
 <div class="container mission-div">
 <div class="text-section">
     <div class="row">
-        <div class="col-3">
+        <div class="col-lg-3 col-md-4 col-sm-12 text-center">
             <h2>Our Mission</h2>
-            <div><img src="bootstrap/images/cup-cake.png" alt=""></div>
+            <div class="cup-div"><img src="bootstrap/images/cup-cake.webp" alt=""></div>
 
 
         </div>
-        <div class="col-9">
+        <div class="col-lg-9 col-md-8 col-sm-12">
             <p><i>This drastic appeal for baked goods promoted baking all throughout Europe and expanded into
                     the
                     eastern parts of Asia.
@@ -83,20 +86,20 @@
                 the fame and desire that the art of baking received, around 300 BC, baking was introduced as an
                 occupation and respectable profession for Romans</p>
             <div class="row">
-                <div class="col-3">
+                <div class="col-lg-3 col-md-3 col-sm-6">
                     <p class="green-text">Custom cakes</p>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-md-3 col-sm-6">
                     <p class="red-text">
                         Birthday cakes
                     </p>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-md-3 col-sm-6">
                     <p class="yellow-text">
                         Wedding cakes
                     </p>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-md-3 col-sm-6">
                     <p class="dark-green-text">
                         European delicacies
                     </p>
@@ -136,7 +139,7 @@
                 <div class="col-3">
                     <div class="position-relative">
                         <img class="testimonial-img" src="bootstrap/images/profile (1).webp" alt="Client">
-                        <div class="head-icon"><img src="bootstrap/images/heading-mark.png" alt=""></div>
+                        <div class="head-icon"><img src="bootstrap/images/black-header-symbol.webp" alt=""></div>
                     </div>
 
 
@@ -160,7 +163,7 @@
                 <div class="col-3">
                     <div class="position-relative">
                         <img class="testimonial-img" src="bootstrap/images/profile (1).webp" alt="Client">
-                        <div class="head-icon"><img src="bootstrap/images/heading-mark.png" alt=""></div>
+                        <div class="head-icon"><img src="bootstrap/images/black-header-symbol.webp" alt=""></div>
                     </div>
 
 
@@ -184,7 +187,7 @@
                 <div class="col-3">
                     <div class="position-relative">
                         <img class="testimonial-img" src="bootstrap/images/profile (1).webp" alt="Client">
-                        <div class="head-icon"><img src="bootstrap/images/heading-mark.png" alt=""></div>
+                        <div class="head-icon"><img src="bootstrap/images/black-header-symbol.webp" alt=""></div>
                     </div>
 
 

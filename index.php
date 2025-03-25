@@ -1,7 +1,7 @@
 <?php include 'includes/header.php' ?>
 <div class="hero">
         <button class="slider-btn prev" onclick="prevSlide()">❮</button>
-        <img id="hero-img" class="home-back-img" itemid="" src="bootstrap/images/home-img.png" alt="Hero Image">
+        <img id="hero-img" class="home-back-img" itemid="" src="bootstrap/images/home-img.webp" alt="Hero Image">
         <div class="hero-content">
             <h1 id="hero-title">Freshly baked pastries are the true <br><strong>language of love</strong></h1>
             <p id="hero-text">This drastic appeal for baked goods promoted baking all throughout Europe and expanded
@@ -13,7 +13,7 @@
     <div class="home-section">
         <div class="container d-phone-flex">
             <div class="image-section text-phone-center">
-                <img src="bootstrap/images/back-img.png" alt="Richstack Bakery">
+                <img src="bootstrap/images/back-img.webp" alt="Richstack Bakery">
             </div>
             <div class="text-section">
                 <h2>Welcome to Richstack</h2>
@@ -40,7 +40,7 @@
             <div class="swiper-wrapper" id="homecard">
                 <div class="card home-card">
                     <div class="position-relative">
-                        <img src="bootstrap/images/cake-img1.png" alt="Cupcake">
+                        <img src="bootstrap/images/cake-img1.webp" alt="Cupcake">
                         <div class="white-div">
                             <label for="" class="mx-2">₹1200</label> ₹1200
                         </div>
@@ -56,7 +56,7 @@
                 </div>
                 <div class="card home-card">
                     <div class="position-relative">
-                        <img src="bootstrap/images/cake-img-2.png" alt="Cupcake">
+                        <img src="bootstrap/images/cake-img-2.webp" alt="Cupcake">
                         <div class="white-div">
                             <label for="" class="mx-2">₹1200</label> ₹1200
                         </div>
@@ -72,7 +72,7 @@
                 </div>
                 <div class="card home-card">
                     <div class="position-relative">
-                        <img src="bootstrap/images/cake-img1.png" alt="Cupcake">
+                        <img src="bootstrap/images/cake-img1.webp" alt="Cupcake">
                         <div class="white-div">
                             <label for="" class="mx-2">₹1200</label> ₹1200
                         </div>
@@ -88,7 +88,7 @@
                 </div>
                 <div class="card home-card">
                     <div class="position-relative">
-                        <img src="bootstrap/images/cake-img-2.png" alt="Cupcake">
+                        <img src="bootstrap/images/cake-img-2.webp" alt="Cupcake">
                         <div class="white-div">
                             <label for="" class="mx-2">₹1200</label> ₹1200
                         </div>
@@ -104,7 +104,7 @@
                 </div>
                 <div class="card home-card">
                     <div class="position-relative">
-                        <img src="bootstrap/images/cake-img1.png" alt="Cupcake">
+                        <img src="bootstrap/images/cake-img1.webp" alt="Cupcake">
                         <div class="white-div">
                             <label for="" class="mx-2">₹1200</label> ₹1200
                         </div>
@@ -120,7 +120,7 @@
                 </div>
                 <div class="card home-card">
                     <div class="position-relative">
-                        <img src="bootstrap/images/cake-img1.png" alt="Cupcake">
+                        <img src="bootstrap/images/cake-img1.webp" alt="Cupcake">
                         <div class="white-div">
                             <label for="" class="mx-2">₹1200</label> ₹1200
                         </div>
@@ -144,12 +144,12 @@
     </div>
     <div class="slider-container">
         <section class="special-div slider">
-            <div class="position-relative slide active"><img src="bootstrap/images/section-img.png" alt="" width="100%"
+            <div class="position-relative slide active"><img src="bootstrap/images/section-img.webp" alt="" width="100%"
                     class="slide-back-img">
                 <div class="inner-cake-div">
                     <div class="row ">
                         <div class="col-lg-6  com-sm-12">
-                            <div class=""><img src="bootstrap/images/cake-img-absolute.png" alt=""></div>
+                            <div class=""><img src="bootstrap/images/cake-img-absolute.webp" alt=""></div>
 
                         </div>
                         <div class="col-lg-6 com-sm-12 img-row-div">
@@ -166,12 +166,12 @@
 
 
             </div>
-            <div class="position-relative slide"><img src="bootstrap/images/section-img.png" alt="" width="100%"
+            <div class="position-relative slide"><img src="bootstrap/images/section-img.webp" alt="" width="100%"
                     class="slide-back-img">
                 <div class="inner-cake-div ">
                     <div class="row ">
                         <div class="col-lg-6 com-sm-12">
-                            <div class=""><img src="bootstrap/images/cake-img-absolute.png" alt=""></div>
+                            <div class=""><img src="bootstrap/images/cake-img-absolute.webp" alt=""></div>
 
                         </div>
                         <div class="col-lg-6 com-sm-12 img-row-div">
@@ -188,12 +188,12 @@
 
 
             </div>
-            <div class="position-relative slide"><img src="bootstrap/images/section-img.png" alt="" width="100%"
+            <div class="position-relative slide"><img src="bootstrap/images/section-img.webp" alt="" width="100%"
                     class="slide-back-img">
                 <div class="inner-cake-div ">
                     <div class="row ">
                         <div class="col-lg-6 com-sm-12">
-                            <div class=""><img src="bootstrap/images/cake-img-absolute.png" alt=""></div>
+                            <div class=""><img src="bootstrap/images/cake-img-absolute.webp" alt=""></div>
 
                         </div>
                         <div class="col-lg-6 com-sm-12 img-row-div">
@@ -219,36 +219,36 @@
         </div>
     </div>
     <section class="service-div">
-        <div class="cake-img-double"><img src="bootstrap/images/absolute-img-cake.png" alt=""></div>
+        <div class="cake-img-double"><img src="bootstrap/images/absolute-img-cake.webp" alt=""></div>
         <h2>Main Services We Provide</h2>
         <div class="list-div">
             <div>
-                <img src="bootstrap/images/cake-icon-1.png" alt="">
+                <img src="bootstrap/images/cake-icon-1.webp" alt="">
                 <h3>Celebration Cakes</h3>
                 <p>We offer huge variety of Celebration Cakes.
                     Check out our collection</p>
             </div>
             <div>
-                <img src="bootstrap/images/cake-icon-2.png" alt="">
+                <img src="bootstrap/images/cake-icon-2.webp" alt="">
                 <h3>Birthday Cakes</h3>
                 <p>Our collection for birthday cake is huge.
                     Volup tate velit esse cillum dolore.</p>
             </div>
             <div>
-                <img src="bootstrap/images/cake-icon-3.png" alt="">
+                <img src="bootstrap/images/cake-icon-3.webp" alt="">
                 <h3>Wedding Cakes</h3>
                 <p>Duis aute irure dolor in reprehenderit in
                     volup tate velit esse cillum dolore</p>
             </div>
 
             <div>
-                <img src="bootstrap/images/cake-icon-4.png" alt="">
+                <img src="bootstrap/images/cake-icon-4.webp" alt="">
                 <h3>Birthday Cakes</h3>
                 <p>Our collection for birthday cake is huge.
                     Volup tate velit esse cillum dolore</p>
             </div>
             <div>
-                <img src="bootstrap/images/cake-icon-2.png" alt="">
+                <img src="bootstrap/images/cake-icon-2.webp" alt="">
                 <h3>Birthday Cakes</h3>
                 <p>Our collection for birthday cake is huge.
                     Volup tate velit esse cillum dolore</p>
@@ -257,10 +257,10 @@
     </section>
     <div class="menu-container position-relative">
         <div class="left-img">
-            <img src="bootstrap/images/opacity-img-cake.png" alt="">
+            <img src="bootstrap/images/opacity-img-cake.webp" alt="">
         </div>
         <div class="right-img">
-            <img src="bootstrap/images/opacity-img-cake-2.png" alt="">
+            <img src="bootstrap/images/opacity-img-cake-2.webp" alt="">
         </div>
         <div class="container space-evenly">
 
@@ -356,7 +356,7 @@
                         <div class="col-3">
                             <div class="position-relative">
                                 <img class="testimonial-img" src="bootstrap/images/profile (1).webp" alt="Client">
-                                <div class="head-icon"><img src="bootstrap/images/heading-mark.png" alt=""></div>
+                                <div class="head-icon"><img src="bootstrap/images/heading-mark.webp" alt=""></div>
                             </div>
 
 
@@ -380,7 +380,7 @@
                         <div class="col-3">
                             <div class="position-relative">
                                 <img class="testimonial-img" src="bootstrap/images/profile (1).webp" alt="Client">
-                                <div class="head-icon"><img src="bootstrap/images/heading-mark.png" alt=""></div>
+                                <div class="head-icon"><img src="bootstrap/images/heading-mark.webp" alt=""></div>
                             </div>
 
 
@@ -404,7 +404,7 @@
                         <div class="col-3">
                             <div class="position-relative">
                                 <img class="testimonial-img" src="bootstrap/images/profile (1).webp" alt="Client">
-                                <div class="head-icon"><img src="bootstrap/images/heading-mark.png" alt=""></div>
+                                <div class="head-icon"><img src="bootstrap/images/heading-mark.webp" alt=""></div>
                             </div>
 
 
@@ -436,13 +436,13 @@
 
                 <div class="blog-container">
                     <div class="blog-card featured">
-                        <img src="bootstrap/images/blog-img-1.png" alt="Blog Image">
+                        <img src="bootstrap/images/blog-img-1.webp" alt="Blog Image">
                         <div class="blog-content-featured">
                             <h3>Best ways to create an extraordinary cake.</h3>
                         </div>
                     </div>
                     <div class="blog-card">
-                        <img src="bootstrap/images/blog-img-2.png" alt="Blog Image">
+                        <img src="bootstrap/images/blog-img-2.webp" alt="Blog Image">
                         <div class="blog-content">
                             <span>March 5, 2025</span>
                             <h3>Best ways to create an extraordinary cake.</h3>
@@ -451,7 +451,7 @@
                         </div>
                     </div>
                     <div class="blog-card">
-                        <img src="bootstrap/images/blog-img-3.png" alt="Blog Image">
+                        <img src="bootstrap/images/blog-img-3.webp" alt="Blog Image">
                         <div class="blog-content">
                             <span>March 5, 2025</span>
                             <h3>Best ways to create an extraordinary cake.</h3>

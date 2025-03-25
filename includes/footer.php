@@ -84,9 +84,9 @@
             showTestimonial(currentIndex);
         }
         const slides = [
-            { image: "bootstrap/images/home-img.png", title: "Freshly baked pastries are the true <br><strong>language of love</strong>", text: "This drastic appeal for baked goods promoted baking all throughout Europe and expanded into the eastern parts of Asia." },
-            { image: "bootstrap/images/home-img.png", title: "Indulge in the Sweetness of Life <br><strong>language of love</strong>", text: "Every bite of our handcrafted cakes brings a moment of joy and delight." },
-            { image: "bootstrap/images/home-img.png", title: "A Slice of Happiness in Every Bite <br><strong>language of love</strong>", text: "Our cakes are made with love, perfect for every occasion and celebration." }
+            { image: "bootstrap/images/home-img.webp", title: "Freshly baked pastries are the true <br><strong>language of love</strong>", text: "This drastic appeal for baked goods promoted baking all throughout Europe and expanded into the eastern parts of Asia." },
+            { image: "bootstrap/images/home-img.webp", title: "Indulge in the Sweetness of Life <br><strong>language of love</strong>", text: "Every bite of our handcrafted cakes brings a moment of joy and delight." },
+            { image: "bootstrap/images/home-img.webp", title: "A Slice of Happiness in Every Bite <br><strong>language of love</strong>", text: "Our cakes are made with love, perfect for every occasion and celebration." }
         ];
         let currentSlide = 0;
         function updateSlide() {

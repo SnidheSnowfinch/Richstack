@@ -112,6 +112,35 @@
             let containerdiv = document.getElementById("homecard");
             containerdiv.scrollBy({ left: 320, behavior: "smooth" });
         }
+
+        function changeImage(imgElement) {
+            document.getElementById('mainImg').src = imgElement.src;
+        }
+
+        function showTab(tabId) {
+            document.querySelectorAll('.tab-content').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            document.getElementById(tabId).classList.add('active');
+
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            event.target.classList.add('active');
+        }
+
+        function increaseQty() {
+            let qty = document.getElementById("qty");
+            qty.value = parseInt(qty.value) + 1;
+        }
+
+        function decreaseQty() {
+            let qty = document.getElementById("qty");
+            if (parseInt(qty.value) > 1) {
+                qty.value = parseInt(qty.value) - 1;
+            }
+        }
+
     </script>
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 

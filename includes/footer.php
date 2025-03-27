@@ -140,6 +140,17 @@
                 qty.value = parseInt(qty.value) - 1;
             }
         }
+        function showTab(tabId) {
+            document.querySelectorAll('.tab-blue-content').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            document.getElementById(tabId).classList.add('active');
+
+            document.querySelectorAll('.tab-blue').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            event.target.classList.add('active');
+        }
 
     </script>
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>

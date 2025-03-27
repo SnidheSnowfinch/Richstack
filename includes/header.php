@@ -17,13 +17,21 @@
 
 <body>
 
-    <div class="top-bar">
-        <div><i class="bi bi-telephone"></i> 000-111-222 | ✉ example@example.com</div>
+<div class="top-bar">
+        <div><label class="icon-nav"><i class="bi bi-telephone"></i></label> 000-111-222 <label class="icon-nav"> <i class="bi bi-envelope"></i></label> example@example.com</div>
         <div class="social-icons">
-            <label class="icon-nav"><i class="bi bi-instagram"></i></label>
             <label class="icon-nav"><i class="bi bi-twitter"></i></label>
+
             <label class="icon-nav"><i class="bi bi-facebook"></i></label>
-            <label class="icon-nav"><i class="bi bi-youtube"></i></label>
+            <label class="icon-nav"><i class="bi bi-pinterest"></i></label>
+
+
+            <label class="icon-nav"><i class="bi bi-instagram"></i></label>
+           <span class="top-span"> <label class="icon-nav"><i class="bi bi-cart"></i></label>
+            <label class="icon-nav"><i class="bi bi-search"></i></label></span>
+
+
+       
         </div>
     </div>
     <div class="nav position-relative navbar navbar-expand-lg">

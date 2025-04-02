@@ -18,13 +18,13 @@
         <div class="col-lg-6 col-md-6 col-sm-12">
             <div class="image-gallery">
                 <div class="main-image position-relative">
-                    <img  class="" id="mainImg" src="bootstrap/images/grid-img-1.png" alt="Product">
-                    <div class="search-icon"><a href=""><img src="bootstrap/images/search-icon.png" alt=""></a></div>
+                    <img  class="" id="mainImg" src="bootstrap/images/grid-img-1.webp" alt="Product">
+                    <div class="search-icon"><a href=""><img src="bootstrap/images/search-icon.webp" alt=""></a></div>
                 </div>
                 <div class="thumbnails">
-                    <img src="bootstrap/images/grid-img-1.png" onclick="changeImage(this)" alt="Thumbnail">
+                    <img src="bootstrap/images/grid-img-1.webp" onclick="changeImage(this)" alt="Thumbnail">
 
-                    <img src="bootstrap/images/grid-img-2.jpg" onclick="changeImage(this)" alt="Thumbnail">
+                    <img src="bootstrap/images/grid-img-2.webp" onclick="changeImage(this)" alt="Thumbnail">
                     <img src="bootstrap/images/cake-img-2.webp" onclick="changeImage(this)" alt="Thumbnail">
                     <img src="bootstrap/images/cake-img1.webp" onclick="changeImage(this)" alt="Thumbnail">
                 </div>

@@ -44,11 +44,11 @@
             <div class="menu">
                 <a href="index.php">Home</a>
                 <a href="our-cake.php">Our Cakes</a>
-                <a href="#">Menu</a>
+                <a href="menu.php">Menu</a>
                 <a href="about.php">About Us</a>
                 <a href="#">Pages</a>
                 <a href="#">Blog</a>
-                <a href="#">Shop</a>
+                <a href="items.php">Shop</a>
                 <a href="contact-us.php">Contact Us</a>
             </div>
         </div>

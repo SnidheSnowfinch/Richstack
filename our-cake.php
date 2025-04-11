@@ -1,10 +1,10 @@
 <?php include 'includes/header.php' ?>
 <div class="hero">
 
-<img id="hero-img" class="home-back-img abt-img" itemid="" src="bootstrap/images/about-img.webp"
+<img class="home-back-img abt-img" itemid="" src="bootstrap/images/about-img.webp"
     alt="Hero Image">
 <div class="hero-content text-center">
-    <h1 id="hero-title"><strong>Our Cake</strong></h1>
+    <h1 class="head-large"><strong>Our Cake</strong></h1>
 
 </div>
 </div>
@@ -212,81 +212,100 @@
 
 </div>
 <div class="slider-container">
-<section class="special-div slider">
-    <div class="position-relative slide active"><img src="bootstrap/images/section-img.webp" alt="" width="100%"
-            class="slide-back-img">
-        <div class="inner-cake-div">
-            <div class="row ">
-                <div class="col-lg-6  com-sm-12">
-                    <div class=""><img src="bootstrap/images/cake-img-absolute.webp" alt=""></div>
+        <section class="special-div slider">
+            <div class="position-relative slide active"><img src="bootstrap/images/section-img.webp" alt="" width="100%"
+                    class="slide-back-img">
+                <div class="inner-cake-div">
+                    <div class="row ">
+                        <div class="col-lg-6  com-sm-12">
+                            <div class=""><img src="bootstrap/images/cake-img-absolute.webp" alt=""></div>
 
-                </div>
-                <div class="col-lg-6 com-sm-12 img-row-div">
-                    <div class="inner-div-data border-div">
-                        <h2>Special Recipe</h2>
-                        <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                            corporis suscipit laboriosam, nisi ut aliquid ex ea commodi equatur
-                            uis autem vel eum</p>
-                        <button class="detail-btn">View Details</button>
+                        </div>
+                        <div class="col-lg-6 com-sm-12 img-row-div">
+                            <div class="inner-div-data border-div">
+                                <h2>What We Offer</h2>
+                                <p>Comprehensive Training: Complete operational and product training.</p>
+                                <!-- <button class="detail-btn">View Details</button> -->
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+
             </div>
-        </div>
+            <div class="position-relative slide"><img src="bootstrap/images/section-img.webp" alt="" width="100%"
+                    class="slide-back-img">
+                <div class="inner-cake-div ">
+                    <div class="row ">
+                        <div class="col-lg-6 com-sm-12">
+                            <div class=""><img src="bootstrap/images/cake-img-absolute.webp" alt=""></div>
 
+                        </div>
+                        <div class="col-lg-6 com-sm-12 img-row-div">
+                            <div class="inner-div-data border-div">
+                            <h2>What We Offer</h2>
 
-    </div>
-    <div class="position-relative slide"><img src="bootstrap/images/section-img.webp" alt="" width="100%"
-            class="slide-back-img">
-        <div class="inner-cake-div ">
-            <div class="row ">
-                <div class="col-lg-6 com-sm-12">
-                    <div class=""><img src="bootstrap/images/cake-img-absolute.webp" alt=""></div>
-
-                </div>
-                <div class="col-lg-6 com-sm-12 img-row-div">
-                    <div class="inner-div-data border-div">
-                        <h2>Special Recipe</h2>
-                        <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                            corporis suscipit laboriosam, nisi ut aliquid ex ea commodi equatur
-                            uis autem vel eum</p>
-                        <button class="detail-btn">View Details</button>
+                                <p>Marketing Support: Brand promotion and marketing materials provided.</p>
+                                <!-- <button class="detail-btn">View Details</button> -->
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+
             </div>
-        </div>
+            <div class="position-relative slide"><img src="bootstrap/images/section-img.webp" alt="" width="100%"
+                    class="slide-back-img">
+                <div class="inner-cake-div ">
+                    <div class="row ">
+                        <div class="col-lg-6 com-sm-12">
+                            <div class=""><img src="bootstrap/images/cake-img-absolute.webp" alt=""></div>
 
+                        </div>
+                        <div class="col-lg-6 com-sm-12 img-row-div">
+                            <div class="inner-div-data border-div">
+                            <h2>What We Offer</h2>
 
-    </div>
-    <div class="position-relative slide"><img src="bootstrap/images/section-img.webp" alt="" width="100%"
-            class="slide-back-img">
-        <div class="inner-cake-div ">
-            <div class="row ">
-                <div class="col-lg-6 com-sm-12">
-                    <div class=""><img src="bootstrap/images/cake-img-absolute.webp" alt=""></div>
-
-                </div>
-                <div class="col-lg-6 com-sm-12 img-row-div">
-                    <div class="inner-div-data border-div">
-                        <h2>Special Recipe</h2>
-                        <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                            corporis suscipit laboriosam, nisi ut aliquid ex ea commodi equatur
-                            uis autem vel eum</p>
-                        <button class="detail-btn">View Details</button>
+                                <p>Exclusive Product Range: Access to our signature products and seasonal specials.</p>
+                                <!-- <button class="detail-btn">View Details</button> -->
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+
             </div>
+            <div class="position-relative slide"><img src="bootstrap/images/section-img.webp" alt="" width="100%"
+                    class="slide-back-img">
+                <div class="inner-cake-div ">
+                    <div class="row ">
+                        <div class="col-lg-6 com-sm-12">
+                            <div class=""><img src="bootstrap/images/cake-img-absolute.webp" alt=""></div>
+
+                        </div>
+                        <div class="col-lg-6 com-sm-12 img-row-div">
+                            <div class="inner-div-data border-div">
+                            <h2>What We Offer</h2>
+
+                                <p>Operational Assistance: Ongoing support to ensure smooth business operations.</p>
+                                <!-- <button class="detail-btn">View Details</button> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+        <div class="indicators">
+            <span class="dot active" onclick="moveToSlide(0)"></span>
+            <span class="dot" onclick="moveToSlide(1)"></span>
+            <span class="dot" onclick="moveToSlide(2)"></span>
+            <span class="dot" onclick="moveToSlide(3)"></span>
+
         </div>
-
-
     </div>
-
-</section>
-<div class="indicators">
-    <span class="dot active" onclick="moveToSlide(0)"></span>
-    <span class="dot" onclick="moveToSlide(1)"></span>
-    <span class="dot" onclick="moveToSlide(2)"></span>
-</div>
-</div>
 
 <div class="menu-container position-relative">
 <div class="left-img">

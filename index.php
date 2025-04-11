@@ -6,7 +6,7 @@
             <h1 id="hero-title">Freshly baked pastries are the true <br><strong>language of love</strong></h1>
             <p id="hero-text">This drastic appeal for baked goods promoted baking all throughout Europe and expanded
                 into the eastern parts of Asia.</p>
-            <button class="btn">See the recipe</button>
+            <!-- <button class="btn">See the recipe</button> -->
         </div>
         <button class="slider-btn next" onclick="nextSlide()">❯</button>
     </div>
@@ -17,12 +17,8 @@
             </div>
             <div class="text-section">
                 <h2>Welcome to Richstack</h2>
-                <p><i>Baked goods have been around for thousands of years. The art of baking was developed early during
-                        the Roman Empire.</i></p>
-                <p>It was a highly famous art as Roman citizens loved baked goods and demanded them frequently for
-                    important occasions such as feasts and weddings. Due to the fame and desire that the art of baking
-                    received, around 300 BC, baking was introduced as an occupation and a respectable profession for
-                    Romans.</p>
+                <p><i>Richstack was founded by a team of passionate bakers with years of experience in the industry</i></p>
+                <p> Baking is an art, a passion and a way to bring smiles to faces. At RichStack, we believe in crafting wholesome goodness, every time making sure that each bite is bursting with warmth, love and the premium essentials. Our bakes are designed to bring people together, turning every occasion into a cherished memory.</p>
                 <a href="#" class="home-btn">Know more about us</a>
             </div>
         </div>
@@ -154,11 +150,9 @@
                         </div>
                         <div class="col-lg-6 com-sm-12 img-row-div">
                             <div class="inner-div-data border-div">
-                                <h2>Special Recipe</h2>
-                                <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                                    corporis suscipit laboriosam, nisi ut aliquid ex ea commodi equatur
-                                    uis autem vel eum</p>
-                                <button class="detail-btn">View Details</button>
+                                <h2>What We Offer</h2>
+                                <p>Comprehensive Training: Complete operational and product training.</p>
+                                <!-- <button class="detail-btn">View Details</button> -->
                             </div>
                         </div>
                     </div>
@@ -176,11 +170,10 @@
                         </div>
                         <div class="col-lg-6 com-sm-12 img-row-div">
                             <div class="inner-div-data border-div">
-                                <h2>Special Recipe</h2>
-                                <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                                    corporis suscipit laboriosam, nisi ut aliquid ex ea commodi equatur
-                                    uis autem vel eum</p>
-                                <button class="detail-btn">View Details</button>
+                            <h2>What We Offer</h2>
+
+                                <p>Marketing Support: Brand promotion and marketing materials provided.</p>
+                                <!-- <button class="detail-btn">View Details</button> -->
                             </div>
                         </div>
                     </div>
@@ -198,11 +191,31 @@
                         </div>
                         <div class="col-lg-6 com-sm-12 img-row-div">
                             <div class="inner-div-data border-div">
-                                <h2>Special Recipe</h2>
-                                <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                                    corporis suscipit laboriosam, nisi ut aliquid ex ea commodi equatur
-                                    uis autem vel eum</p>
-                                <button class="detail-btn">View Details</button>
+                            <h2>What We Offer</h2>
+
+                                <p>Exclusive Product Range: Access to our signature products and seasonal specials.</p>
+                                <!-- <button class="detail-btn">View Details</button> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="position-relative slide"><img src="bootstrap/images/section-img.webp" alt="" width="100%"
+                    class="slide-back-img">
+                <div class="inner-cake-div ">
+                    <div class="row ">
+                        <div class="col-lg-6 com-sm-12">
+                            <div class=""><img src="bootstrap/images/cake-img-absolute.webp" alt=""></div>
+
+                        </div>
+                        <div class="col-lg-6 com-sm-12 img-row-div">
+                            <div class="inner-div-data border-div">
+                            <h2>What We Offer</h2>
+
+                                <p>Operational Assistance: Ongoing support to ensure smooth business operations.</p>
+                                <!-- <button class="detail-btn">View Details</button> -->
                             </div>
                         </div>
                     </div>
@@ -216,6 +229,8 @@
             <span class="dot active" onclick="moveToSlide(0)"></span>
             <span class="dot" onclick="moveToSlide(1)"></span>
             <span class="dot" onclick="moveToSlide(2)"></span>
+            <span class="dot" onclick="moveToSlide(3)"></span>
+
         </div>
     </div>
     <section class="service-div">
@@ -224,35 +239,27 @@
         <div class="list-div">
             <div>
                 <img src="bootstrap/images/cake-icon-1.webp" alt="">
-                <h3>Celebration Cakes</h3>
-                <p>We offer huge variety of Celebration Cakes.
-                    Check out our collection</p>
+                <h3>Wedding Cakes</h3>
+                <p>Tailored designs to match the theme, size, and taste preferences of the couple.</p>
             </div>
             <div>
-                <img src="bootstrap/images/cake-icon-2.webp" alt="">
+            <img src="bootstrap/images/cake-icon-4.webp" alt="">
+
                 <h3>Birthday Cakes</h3>
-                <p>Our collection for birthday cake is huge.
-                    Volup tate velit esse cillum dolore.</p>
+                <p>Personalized cakes with unique themes, decorations, and flavours.</p>
             </div>
             <div>
                 <img src="bootstrap/images/cake-icon-3.webp" alt="">
-                <h3>Wedding Cakes</h3>
-                <p>Duis aute irure dolor in reprehenderit in
-                    volup tate velit esse cillum dolore</p>
+                <h3>Event Cakes</h3>
+            <p>Custom cakes for events like baby showers, graduations, corporate parties, etc.</p>
             </div>
 
             <div>
-                <img src="bootstrap/images/cake-icon-4.webp" alt="">
-                <h3>Birthday Cakes</h3>
-                <p>Our collection for birthday cake is huge.
-                    Volup tate velit esse cillum dolore</p>
-            </div>
-            <div>
-                <img src="bootstrap/images/cake-icon-2.webp" alt="">
-                <h3>Birthday Cakes</h3>
-                <p>Our collection for birthday cake is huge.
-                    Volup tate velit esse cillum dolore</p>
-            </div>
+            <img src="bootstrap/images/cake-icon-2.webp" alt="">
+            <h3>Cake Artistry</h3>
+                <p>Includes intricate designs like fondant work, hand-painted cakes, sugar flowers, and 3D cake sculptures.</p>
+           </div>
+           
         </div>
     </section>
     <div class="menu-container position-relative">
@@ -274,54 +281,62 @@
 
                         <div class="menu-item">
                             <div class="item-name">
-                                <h3>Double Chocolate Pie</h3>
-                                <p>Chocolate pudding, vanilla, fruit raspberry jam milk</p>
+                                <h3>Cake</h3>
+                                <p>Blueberry Bliss, Dark Chocolate Delight, Red Velvet, Black Forest, Divine Vanilla, Divine Truffle Chocolate, Butterscotch Crunch, Crunchy Hazelnut, Royal Rasmalai, Belgium Chocolate, Honey Rose, Gulkand, etc.</p>
                             </div>
-                            <div class="item-price">₹1000</div>
                         </div>
 
                         <div class="menu-item">
                             <div class="item-name">
-                                <h3>Zabaglione Cake</h3>
-                                <p>Vanilla, fruit raspberry jam milk</p>
+                                <h3>Pastries</h3>
+                                <p>Royal Rasmalai, Truffle chocolate, Red Velvet, Golden pineapple, Blueberry Bliss, Mango magic, Belgium Chocolate, Honey Rose, Gulkand etc.</p>
                             </div>
-                            <div class="item-price">₹1000</div>
                         </div>
 
                         <div class="menu-item">
                             <div class="item-name">
-                                <h3>Strawberry Sweet Cake</h3>
-                                <p>Chocolate pudding, vanilla, fruit raspberry jam milk</p>
+                                <h3>Dessert</h3>
+                                <p>Royal Rasmalai, Truffle chocolate, Red Velvet, Golden pineapple, Blueberry Bliss, Mango magic, Belgium Chocolate, Honey Rose, Gulkand etc.</p>
                             </div>
-                            <div class="item-price">₹1000</div>
                         </div>
+                        <div class="menu-item">
+                            <div class="item-name">
+                                <h3>Chocolates </h3>
+                                <p>Dark Chocolate, Hazelnut Chocolate, Nutty Chocolate, Crunchy Chocolate, Dry Fruit Chocolate, Coconut Chocolate, Ferrero Chocolate, Peanut Chocolate, Orange Chocolate, Milky Chocolate etc.</p>
+                            </div>
+                        </div>
+                       
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
 
 
                         <div class="menu-item">
                             <div class="item-name">
-                                <h3>Fried Egg Sandwich</h3>
-                                <p>Chocolate pudding, vanilla, fruit raspberry jam milk</p>
+                                <h3>Brownie, Cupcakes & Donuts</h3>
+                                <p>Chocolate Cupcake, Vanilla Cupcake, Chocolate Brownie, Hazelnut Brownie, Walnut Brownie, Dark Chocolate Donut, White Chocolate Donut, Choco lava etc. </p>
                             </div>
-                            <div class="item-price">₹1000</div>
                         </div>
 
                         <div class="menu-item">
                             <div class="item-name">
-                                <h3>Multigrain Hot Cake</h3>
-                                <p>Chocolate pudding, vanilla, fruit raspberry jam milk</p>
+                                <h3>Ice-cream </h3>
+                                <p>Chocolate, Vanilla, Butterscotch, Strawberry, Tender Coconut, Gulkand, Dry Fruit Overload, Mango, Kesar Pista, Anjeer, Etc.</p>
                             </div>
-                            <div class="item-price">₹1000</div>
                         </div>
-
+                       
                         <div class="menu-item">
                             <div class="item-name">
-                                <h3>Branch Special Cake</h3>
-                                <p>Chocolate pudding, vanilla, fruit raspberry jam milk</p>
+                                <h3>Snacks</h3>
+                                <p>Veg Puff, Shimla Puff, Paneer Puff, Veg Sandwich, Manchurian roll, Paneer Roll etc.</p>
                             </div>
-                            <div class="item-price">₹1000</div>
                         </div>
+                        <div class="menu-item">
+                            <div class="item-name">
+                                <h3>Dry products and Cookies</h3>
+                                <p>Plain Khari, Jeera Khari, Milk Rusk, Cashew Rusk, Surti Butter, Cheese Straw, Jeera Sticks, Cream Roll, Mawa Cake, Finger Cake Milk Bread, Plain Bread, Multigrain Bread, Coconut Cookies, Choco chips Cookies, Badam Pista Cookies, Cashew nut Cookies, Pista Nankhatai, Shrewsbury Cookies etc.</p>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -363,13 +378,10 @@
                         </div>
                         <div class="col-9 text-left">
                             <div class="profile-div">
-                                <p>"Oseddolores eos qoluptatem sequi
-                                    nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-                                    consectetur, adipisci sed quia non numquam qui ratione voluptatem sequi nesciunt.
-                                    Neque porro quisquam est."</p>
+                                <p>"We ordered our wedding cake from Richstack and we couldn't have been happier! The cake was not only beautiful but also delicious. Our guests were raving about the flavour, and the design was absolutely perfect – it matched our theme exactly. The team made sure everything was perfect, and the delivery was smooth and on time. Highly recommend them for any special occasion!"</p>
                             </div>
                             <div class="profile-name">
-                                <p>- manu Lee</p>
+                                <p>- Priyanka.</p>
                             </div>
                         </div>
                     </div>
@@ -387,13 +399,10 @@
                         </div>
                         <div class="col-9 text-left">
                             <div class="profile-div">
-                                <p>"Osed quia consequuntur magni dolores eos qui ratione voluptatem sequi
-                                    nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-                                    consectetur, adipisci sed quia non numquam qui ratione voluptatem sequi nesciunt.
-                                    Neque porro quisquam est."</p>
+                                <p>"We ordered a custom cake for our company’s anniversary celebration, and it was fantastic! The team worked closely with us to ensure the cake reflected our branding. It looked great, tasted even better, and was a big hit at the event. We will definitely order again for future corporate events!"</p>
                             </div>
                             <div class="profile-name">
-                                <p>- Sarah Lee</p>
+                                <p>- Avinash.</p>
                             </div>
                         </div>
                     </div>
@@ -411,11 +420,31 @@
                         </div>
                         <div class="col-9 text-left">
                             <div class="profile-div">
-                                <p>"Osed quia conse ratione voluptatem sequi nesciunt.
-                                    Neque porro quisquam est."</p>
+                                <p>"I placed an order for a last-minute birthday cake, and Richstack saved the day! Not only did they manage to prepare the cake on short notice, but they delivered it right to my doorstep in perfect condition. The cake looked beautiful and tasted even better. Thank you for making my celebration so easy and delicious!"</p>
                             </div>
                             <div class="profile-name">
-                                <p>- Gaour Lee</p>
+                                <p>- Shyam.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="testimonial">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="position-relative">
+                                <img class="testimonial-img" src="bootstrap/images/profile (1).webp" alt="Client">
+                                <div class="head-icon"><img src="bootstrap/images/heading-mark.webp" alt=""></div>
+                            </div>
+
+
+                        </div>
+                        <div class="col-9 text-left">
+                            <div class="profile-div">
+                                <p>"Our anniversary cake was a dream come true! Richstack created a stunning design that incorporated our favourite colours and even included a personalized message. The cake was so fresh and flavourful, and the attention to detail was remarkable. It made our special day even more memorable. Highly recommend!"</p>
+                            </div>
+                            <div class="profile-name">
+                                <p>- Amol.</p>
                             </div>
                         </div>
                     </div>

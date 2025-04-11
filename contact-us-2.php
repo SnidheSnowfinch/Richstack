@@ -1,10 +1,10 @@
 <?php include 'includes/header.php' ?>
 <div class="hero">
 
-<img id="hero-img" class="home-back-img abt-img" itemid="" src="bootstrap/images/about-img.webp"
+<img  class="home-back-img abt-img" itemid="" src="bootstrap/images/about-img.webp"
     alt="Hero Image">
 <div class="hero-content text-center">
-    <h1 id="hero-title"><strong>Contact Us</strong></h1>
+    <h1  class="head-large"><strong>Contact Us</strong></h1>
 
 </div>
 </div>
@@ -17,7 +17,7 @@
     </div>
     <div class="info-box">
         <h3>Contact :</h3>
-        <p><strong>Phone :</strong> 8110000000</p>
+        <p><strong>Phone :</strong> 91 142 94 142</p>
         <p><strong>Email :</strong> richstackfoods@gmail.com</p>
     </div>
     <div class="info-box">
@@ -29,7 +29,7 @@
 </div>
 
 <div class="contact-container">
-    <img src="bootstrap/images/contact-img.png" alt="Cupcake">
+    <img src="bootstrap/images/contact-img.webp" alt="Cupcake">
     <div class="contact-form-product text-section">
         <h2>Get In Touch</h2>
         <p><i>Do you have anything in your mind to let us know? Kindly don't delay to connect to us.</i></p>

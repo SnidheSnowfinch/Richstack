@@ -1,10 +1,10 @@
 <?php include 'includes/header.php' ?>
 <div class="hero">
 
-<img id="hero-img" class="home-back-img abt-img" itemid="" src="bootstrap/images/about-img.webp"
+<img  class="home-back-img abt-img" itemid="" src="bootstrap/images/about-img.webp"
     alt="Hero Image">
 <div class="hero-content text-center">
-    <h1 id="hero-title"><strong>Contact Us</strong></h1>
+    <h1 class="head-large" ><strong>Contact Us</strong></h1>
 
 </div>
 </div>
@@ -41,7 +41,7 @@
                 <h3>Address:</h3>
                 <p>GAT NO. 457 & 458, Awhalwadi - Wagholi Road, Opposite Snehalaya, Awhalwadi, Pune- 412207.</p>
                 <h3>Phone:</h3>
-                <p>88XXXXXXXX</p>
+                <p>91 142 94 142</p>
                 <h3>Email:</h3>
                 <p>richstackfoods@gmail.com</p>
                 <h3>Opening Hours:</h3>

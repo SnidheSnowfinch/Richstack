@@ -2,10 +2,10 @@
 
 <div class="hero">
 
-<img id="hero-img" class="home-back-img abt-img" itemid="" src="bootstrap/images/about-img.webp"
+<img class="home-back-img abt-img" itemid="" src="bootstrap/images/about-img.webp"
     alt="Hero Image">
 <div class="hero-content text-center">
-    <h1 id="hero-title"><strong>Product 1</strong></h1>
+    <h1  class="head-large"><strong>Product 1</strong></h1>
 
 </div>
 </div>
@@ -50,7 +50,7 @@
                             <input type="text" id="qty" value="1">
                             <button class="qty-btn" onclick="increaseQty()">+</button>
                         </div>
-                        <button class="cart-button-blue">ADD TO CART</button>
+                        <button class="cart-button-blue">See More</button>
 
                     </div>
                     <div class="mt-3">

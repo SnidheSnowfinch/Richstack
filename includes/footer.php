@@ -2,7 +2,7 @@
         <div class="container">
             <div class="footer-container">
                 <div class="footer-about">
-                    <p>Crichstack is for the ones who love cake and we make that special for...</p>
+                    <p>Richstack is for the ones who love cake and we make that special for...</p>
                     <div class="social-icons">
 
                         <label class="icon-nav"><i class="bi bi-instagram"></i></label>
@@ -34,10 +34,10 @@
                 </div>
                 <div class="footer-contact">
                     <h4>Contact Info</h4>
-                    <p>00000 00000</p>
+                    <p>91 142 94 142</p>
                     <label>Richstack Store</label><br>
                     <label>256, Baker Street, India, 52455</label>
-                    <p>Email: richstack@gmail.com</p>
+                    <p>Email: <a href="" class="text-light text-decoration-none">richstackfood@gmail.com</a></p>
                 </div>
             </div>
             <div class="footer-bottom">
@@ -52,12 +52,13 @@
         const dots = document.querySelectorAll(".dot");
 
         function moveToSlide(index) {
+            if(currentIndexx){
             currentIndexx = index;
             document.querySelector(".slider").style.transform = `translateX(-${index * 100}%)`;
 
             dots.forEach(dot => dot.classList.remove("active"));
             dots[index].classList.add("active");
-        }
+        }}
 
         // Auto Slide
         setInterval(() => {
@@ -83,10 +84,11 @@
             currentIndex = (currentIndex + 1) % testimonials.length;
             showTestimonial(currentIndex);
         }
+        // .................
         const slides = [
             { image: "bootstrap/images/home-img.webp", title: "Freshly baked pastries are the true <br><strong>language of love</strong>", text: "This drastic appeal for baked goods promoted baking all throughout Europe and expanded into the eastern parts of Asia." },
-            { image: "bootstrap/images/home-img.webp", title: "Indulge in the Sweetness of Life <br><strong>language of love</strong>", text: "Every bite of our handcrafted cakes brings a moment of joy and delight." },
-            { image: "bootstrap/images/home-img.webp", title: "A Slice of Happiness in Every Bite <br><strong>language of love</strong>", text: "Our cakes are made with love, perfect for every occasion and celebration." }
+            { image: "bootstrap/images/grid-img-5.jpg", title: "Indulge in the Sweetness of Life <br><strong>language of love</strong>", text: "Every bite of our handcrafted cakes brings a moment of joy and delight." },
+            { image: "bootstrap/images/menu-bg.webp", title: "A Slice of Happiness in Every Bite <br><strong>language of love</strong>", text: "Our cakes are made with love, perfect for every occasion and celebration." }
         ];
         let currentSlide = 0;
         function updateSlide() {
@@ -102,7 +104,11 @@
             currentSlide = (currentSlide - 1 + slides.length) % slides.length;
             updateSlide();
         }
-
+        setInterval(() => {
+            currentSlide = (currentSlide + 1) % slides.length;
+            updateSlide(currentSlide);
+        }, 3000);
+// .................
         function scrollLeftDest() {
             let containerdiv = document.getElementById("homecard");
             containerdiv.scrollBy({ left: -320, behavior: "smooth" });
@@ -147,6 +153,17 @@
             document.getElementById(tabId).classList.add('active');
 
             document.querySelectorAll('.tab-blue').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            event.target.classList.add('active');
+        }
+        function showTab2(tabId2) {
+            document.querySelectorAll('.tab-pink-content').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            document.getElementById(tabId2).classList.add('active');
+
+            document.querySelectorAll('.tab-pink').forEach(tab => {
                 tab.classList.remove('active');
             });
             event.target.classList.add('active');

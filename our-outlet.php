@@ -1,9 +1,9 @@
 <?php include 'includes/header.php' ?>
 <div class="hero">
 
-<img id="hero-img" class="home-back-img abt-img" itemid="" src="bootstrap/images/menu-bg.webp" alt="Hero Image">
+<img class="home-back-img abt-img" itemid="" src="bootstrap/images/menu-bg.webp" alt="Hero Image">
 <div class="hero-content text-center">
-    <h1 id="hero-title"><strong>Our Outlet</strong></h1>
+    <h1  class="head-large"><strong>Our Outlet</strong></h1>
 
 </div>
 </div>

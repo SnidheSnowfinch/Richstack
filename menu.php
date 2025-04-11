@@ -1,10 +1,10 @@
 <?php include 'includes/header.php' ?>
 <div class="hero">
 
-<img id="hero-img" class="home-back-img abt-img" itemid="" src="bootstrap/images/menu-bg.webp"
+<img  class="home-back-img abt-img" itemid="" src="bootstrap/images/menu-bg.webp"
     alt="Hero Image">
 <div class="hero-content text-center">
-    <h1 id="hero-title"><strong>Menu</strong></h1>
+    <h1  class="head-large"><strong>Menu</strong></h1>
 
 </div>
 </div>
